@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>EcoBot - Waste Management</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+</head>
+
+<body class="bg-light">
+
+<!-- ================================================= -->
+<!-- Navbar -->
+<!-- ================================================= -->
+
+<nav class="navbar navbar-expand-lg bg-success navbar-dark">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="/">
+            <i class="bi bi-recycle"></i>
+            EcoWaste
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+            class="collapse navbar-collapse"
+            id="navbarMenu"
+        >
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link active"
+                        href="#home"
+                    >
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#waste"
+                    >
+                        Waste Management
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#recycling"
+                    >
+                        Recycling
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- ================================================= -->
+<!-- Hero Section -->
+<!-- ================================================= -->
+
+<section
+    id="home"
+    class="bg-success text-white py-5"
+>
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-8">
+
+                <h1 class="display-5 fw-bold">
+                    Smart Waste Management
+                </h1>
+
+                <p class="lead">
+                    Learn how to identify, separate, recycle
+                    and responsibly dispose of different types
+                    of waste.
+                </p>
+
+                <p>
+                    Ask EcoBot about plastic, paper, food waste,
+                    e-waste, batteries, glass, metal and more.
+                </p>
+
+            </div>
+
+            <div class="col-md-4 text-center">
+
+                <i class="bi bi-recycle display-1"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- Waste Management Cards -->
+<!-- ================================================= -->
+
+<section
+    id="waste"
+    class="py-5"
+>
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">
+                Waste Management
+            </h2>
+
+            <p class="text-muted">
+                Understand different waste categories
+                and responsible disposal practices.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- Wet Waste -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body text-center">
+
+                        <i class="bi bi-egg-fried display-4 text-success"></i>
+
+                        <h4 class="card-title mt-3">
+                            Wet Waste
+                        </h4>
+
+                        <p class="card-text">
+                            Food scraps, vegetable waste,
+                            fruit peels and other biodegradable
+                            organic materials.
+                        </p>
+
+                        <span class="badge text-bg-success">
+                            Compostable
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Dry Waste -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body text-center">
+
+                        <i class="bi bi-box-seam display-4 text-primary"></i>
+
+                        <h4 class="card-title mt-3">
+                            Dry Waste
+                        </h4>
+
+                        <p class="card-text">
+                            Paper, cardboard, plastic and metal
+                            items that may be recyclable.
+                        </p>
+
+                        <span class="badge text-bg-primary">
+                            Recyclable
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- E-Waste -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body text-center">
+
+                        <i class="bi bi-cpu display-4 text-danger"></i>
+
+                        <h4 class="card-title mt-3">
+                            E-Waste
+                        </h4>
+
+                        <p class="card-text">
+                            Computers, phones, chargers,
+                            batteries and other electronic
+                            equipment.
+                        </p>
+
+                        <span class="badge text-bg-danger">
+                            Special Handling
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- Recycling Section -->
+<!-- ================================================= -->
+
+<section
+    id="recycling"
+    class="py-5 bg-white"
+>
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">
+                Recycling Guide
+            </h2>
+
+            <p class="text-muted">
+                Simple practices for responsible waste management.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body text-center">
+
+                        <i class="bi bi-trash3 display-5 text-danger"></i>
+
+                        <h5 class="mt-3">
+                            Reduce
+                        </h5>
+
+                        <p>
+                            Reduce unnecessary consumption
+                            and packaging.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body text-center">
+
+                        <i class="bi bi-arrow-repeat display-5 text-success"></i>
+
+                        <h5 class="mt-3">
+                            Reuse
+                        </h5>
+
+                        <p>
+                            Reuse products instead of
+                            immediately throwing them away.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body text-center">
+
+                        <i class="bi bi-recycle display-5 text-primary"></i>
+
+                        <h5 class="mt-3">
+                            Recycle
+                        </h5>
+
+                        <p>
+                            Send suitable materials to
+                            recycling facilities.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body text-center">
+
+                        <i class="bi bi-tree display-5 text-success"></i>
+
+                        <h5 class="mt-3">
+                            Compost
+                        </h5>
+
+                        <p>
+                            Convert suitable organic waste
+                            into useful compost.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- Footer -->
+<!-- ================================================= -->
+
+<footer class="bg-dark text-white py-4">
+
+    <div class="container text-center">
+
+        <p class="mb-0">
+            EcoWaste Management Assistant
+        </p>
+
+        <small class="text-secondary">
+            Powered by Flask + Ollama + Llama 3.2
+        </small>
+
+    </div>
+
+</footer>
+
+
+<!-- ================================================= -->
+<!-- CHATBOT ICON -->
+<!-- ================================================= -->
+
+<div
+    class="position-fixed bottom-0 end-0 m-4"
+>
+
+    <button
+        type="button"
+        class="btn btn-success rounded-circle shadow-lg p-3"
+        data-bs-toggle="modal"
+        data-bs-target="#chatbotModal"
+        title="Open EcoBot"
+    >
+
+        <i class="bi bi-chat-dots-fill fs-3"></i>
+
+    </button>
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- CHATBOT MODAL -->
+<!-- ================================================= -->
+
+<div
+    class="modal fade"
+    id="chatbotModal"
+    tabindex="-1"
+    aria-labelledby="chatbotModalLabel"
+    aria-hidden="true"
+>
+
+    <div
+        class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-end"
+    >
+
+        <div class="modal-content">
+
+
+            <!-- Header -->
+
+            <div class="modal-header bg-success text-white">
+
+                <div>
+
+                    <h5
+                        class="modal-title"
+                        id="chatbotModalLabel"
+                    >
+                        <i class="bi bi-robot"></i>
+                        EcoBot
+                    </h5>
+
+                    <small>
+                        Waste Management Assistant
+                    </small>
+
+                </div>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal"
+                ></button>
+
+            </div>
+
+
+            <!-- Chat Body -->
+
+            <div class="modal-body bg-light">
+
+                {% if not memory %}
+
+                    <div class="text-center py-5">
+
+                        <i class="bi bi-recycle display-3 text-success"></i>
+
+                        <h5 class="mt-3">
+                            Welcome to EcoBot
+                        </h5>
+
+                        <p class="text-muted">
+                            Ask me about any type of waste.
+                        </p>
+
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+
+                            <span class="badge text-bg-success">
+                                Plastic
+                            </span>
+
+                            <span class="badge text-bg-primary">
+                                Paper
+                            </span>
+
+                            <span class="badge text-bg-warning">
+                                Food Waste
+                            </span>
+
+                            <span class="badge text-bg-danger">
+                                E-Waste
+                            </span>
+
+                            <span class="badge text-bg-secondary">
+                                Batteries
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                {% endif %}
+
+
+                <!-- Conversation Memory -->
+
+                {% for item in memory %}
+
+                    {% if item["role"] == "user" %}
+
+                        <div class="d-flex justify-content-end mb-3">
+
+                            <div
+                                class="bg-primary text-white rounded-3 p-3"
+                                style="max-width: 80%;"
+                            >
+
+                                <small class="fw-bold">
+                                    You
+                                </small>
+
+                                <div>
+                                    {{ item["message"] }}
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    {% else %}
+
+                        <div class="d-flex justify-content-start mb-3">
+
+                            <div
+                                class="bg-white border rounded-3 p-3 shadow-sm"
+                                style="max-width: 80%;"
+                            >
+
+                                <small class="fw-bold text-success">
+                                    <i class="bi bi-robot"></i>
+                                    EcoBot
+                                </small>
+
+                                <div class="mt-1">
+                                    {{ item["message"] | replace("\n", "<br>") | safe }}
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+
+
+            <!-- Chat Input -->
+
+            <div class="modal-footer">
+
+                <form
+                    method="POST"
+                    action="/"
+                    class="w-100"
+                >
+
+                    <div class="input-group">
+
+                        <input
+                            type="text"
+                            name="message"
+                            class="form-control"
+                            placeholder="Ask about waste..."
+                            autocomplete="off"
+                            required
+                        >
+
+                        <button
+                            type="submit"
+                            class="btn btn-success"
+                        >
+
+                            <i class="bi bi-send-fill"></i>
+                            Send
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+
+                <!-- Clear Memory -->
+
+                <form
+                    method="POST"
+                    action="/clear"
+                    class="w-100"
+                >
+
+                    <button
+                        type="submit"
+                        class="btn btn-outline-danger btn-sm"
+                    >
+
+                        <i class="bi bi-trash"></i>
+                        Clear Chat Memory
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- Bootstrap JavaScript -->
+<!-- ================================================= -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+></script>
+
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+[
+    {
+        "name": "Plastic Bottle",
+        "description": "A plastic container commonly used for drinking water and beverages.",
+        "type": "Recyclable Dry Waste",
+        "recyclable": true,
+        "recycling_details": "Empty and rinse the bottle. Separate the cap if required by your local recycling facility. Place it in the appropriate plastic recycling collection.",
+        "recommendations": [
+            "Reuse the bottle when appropriate.",
+            "Prefer reusable steel or glass bottles.",
+            "Avoid single-use plastic bottles."
+        ],
+        "suggestions": [
+            "Carry a reusable water bottle.",
+            "Buy products with less plastic packaging."
+        ]
+    },
+    {
+        "name": "Plastic Bag",
+        "description": "A lightweight plastic bag commonly used for carrying groceries and other items.",
+        "type": "Plastic Waste",
+        "recyclable": "Depends on local facilities",
+        "recycling_details": "Many regular recycling programs do not accept plastic bags. Some stores and specialized collection points may accept them.",
+        "recommendations": [
+            "Reuse plastic bags when possible.",
+            "Use reusable cloth bags.",
+            "Avoid single-use plastic bags."
+        ],
+        "suggestions": [
+            "Keep reusable shopping bags with you.",
+            "Choose products with minimal packaging."
+        ]
+    },
+    {
+        "name": "Paper",
+        "description": "Paper products such as newspapers, office paper and notebooks.",
+        "type": "Recyclable Dry Waste",
+        "recyclable": true,
+        "recycling_details": "Keep paper clean and dry. Remove food contamination and non-paper materials before recycling.",
+        "recommendations": [
+            "Reuse paper before recycling.",
+            "Keep paper dry.",
+            "Separate paper from wet waste."
+        ],
+        "suggestions": [
+            "Use both sides of paper.",
+            "Prefer digital documents when practical."
+        ]
+    },
+    {
+        "name": "Cardboard",
+        "description": "Thick paper-based material commonly used for boxes and packaging.",
+        "type": "Recyclable Dry Waste",
+        "recyclable": true,
+        "recycling_details": "Flatten cardboard boxes and remove excessive tape, plastic and food contamination before recycling.",
+        "recommendations": [
+            "Reuse boxes for storage.",
+            "Flatten cardboard before collection.",
+            "Keep cardboard dry."
+        ],
+        "suggestions": [
+            "Reuse delivery boxes.",
+            "Choose recyclable packaging."
+        ]
+    },
+    {
+        "name": "Food Waste",
+        "description": "Organic waste generated from food preparation and leftover food.",
+        "type": "Wet / Organic Waste",
+        "recyclable": false,
+        "recycling_details": "Food waste can often be composted or processed through organic waste collection programs.",
+        "recommendations": [
+            "Separate food waste from dry waste.",
+            "Use a home composting system when possible.",
+            "Avoid wasting edible food."
+        ],
+        "suggestions": [
+            "Plan meals before shopping.",
+            "Store food properly.",
+            "Compost suitable organic waste."
+        ]
+    },
+    {
+        "name": "Glass Bottle",
+        "description": "A glass container commonly used for beverages and food products.",
+        "type": "Recyclable Dry Waste",
+        "recyclable": true,
+        "recycling_details": "Rinse the bottle and place it in a glass recycling collection where available. Handle broken glass carefully.",
+        "recommendations": [
+            "Reuse glass containers when safe.",
+            "Separate glass from other waste.",
+            "Do not place broken glass loosely in bags."
+        ],
+        "suggestions": [
+            "Reuse jars as storage containers.",
+            "Prefer reusable glass containers."
+        ]
+    },
+    {
+        "name": "Metal Can",
+        "description": "Metal packaging commonly used for beverages and food.",
+        "type": "Recyclable Dry Waste",
+        "recyclable": true,
+        "recycling_details": "Empty and rinse the can before placing it in the appropriate metal recycling collection.",
+        "recommendations": [
+            "Rinse cans before recycling.",
+            "Separate metal from wet waste.",
+            "Reuse containers where appropriate."
+        ],
+        "suggestions": [
+            "Choose recyclable metal packaging.",
+            "Avoid unnecessary packaged products."
+        ]
+    },
+    {
+        "name": "Electronic Waste",
+        "description": "Discarded electronic equipment such as mobile phones, computers, chargers and circuit boards.",
+        "type": "E-Waste",
+        "recyclable": true,
+        "recycling_details": "Electronic waste should be taken to an authorized e-waste collection or recycling facility. Do not dispose of electronics with regular household waste.",
+        "recommendations": [
+            "Use authorized e-waste collection centers.",
+            "Erase personal data before disposal.",
+            "Repair or donate electronics when possible."
+        ],
+        "suggestions": [
+            "Repair devices before replacing them.",
+            "Donate working electronics.",
+            "Use authorized recycling channels."
+        ]
+    },
+    {
+        "name": "Battery",
+        "description": "A device that stores electrical energy and is used in electronic equipment.",
+        "type": "Hazardous / E-Waste",
+        "recyclable": true,
+        "recycling_details": "Batteries should be taken to an appropriate battery collection or e-waste facility. Do not place batteries in regular household waste.",
+        "recommendations": [
+            "Use designated battery collection points.",
+            "Keep damaged batteries away from heat and flames.",
+            "Do not throw batteries into regular garbage."
+        ],
+        "suggestions": [
+            "Use rechargeable batteries when suitable.",
+            "Recycle batteries through authorized facilities."
+        ]
+    },
+    {
+        "name": "Used Clothes",
+        "description": "Clothing that is no longer needed or suitable for regular use.",
+        "type": "Textile Waste",
+        "recyclable": "Depends on collection facility",
+        "recycling_details": "Donate usable clothing or send textiles to organizations and facilities that accept textile waste.",
+        "recommendations": [
+            "Donate usable clothes.",
+            "Repair damaged clothes.",
+            "Reuse old textiles as cleaning cloths."
+        ],
+        "suggestions": [
+            "Buy durable clothing.",
+            "Avoid unnecessary clothing purchases."
+        ]
+    },
+    {
+        "name": "Garden Waste",
+        "description": "Organic waste such as leaves, grass, branches and plant material.",
+        "type": "Organic Waste",
+        "recyclable": false,
+        "recycling_details": "Garden waste can often be composted or processed into mulch.",
+        "recommendations": [
+            "Compost leaves and suitable plant material.",
+            "Use garden waste as mulch.",
+            "Keep garden waste separate from plastic waste."
+        ],
+        "suggestions": [
+            "Start a compost pile.",
+            "Use compost as natural fertilizer."
+        ]
+    },
+    {
+        "name": "Used Cooking Oil",
+        "description": "Cooking oil that has already been used for frying or food preparation.",
+        "type": "Special Waste",
+        "recyclable": "Depends on collection facility",
+        "recycling_details": "Do not pour used cooking oil into drains. Store it safely and use an appropriate collection or recycling service where available.",
+        "recommendations": [
+            "Never pour cooking oil into the sink.",
+            "Store used oil in a sealed container.",
+            "Use an authorized collection service when available."
+        ],
+        "suggestions": [
+            "Reduce unnecessary oil consumption.",
+            "Reuse cooking oil only when safe and appropriate."
+        ]
+    }
+]
